@@ -1,0 +1,113 @@
+html{
+    height: 100%;
+    min-width: 20%;
+    background-image: linear-gradient(to right, rgb(44, 47, 53), rgb(82, 167, 118));
+    background-size: auto;
+}
+.container{
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    }
+ h1{
+    
+     margin: auto;
+     max-width: 400px;
+     padding: 5%;
+     align-items: center;
+     font-family: 'Raleway',sans-serif;
+     font-weight: 700;
+     font-size: 2.5rem;
+ }   
+ .main{
+     padding: 5%;
+ }
+ form{
+     background-color: white;
+     padding: 5px;
+     border-radius: 5px;
+     display: flex;
+ }
+ input[type=text]
+ {   height: 40px;
+     border:none;
+     outline:0;
+     font-size: 1rem;
+     flex-grow: 1;
+     font-weight: 600;
+     color:#595959;
+ }
+ .todo-item{
+      flex-grow:1;
+ }
+ button{
+     border: none;
+     outline: 0;
+     font-size: 1.5rem;
+     background-color: white;
+ }
+ button:hover{
+     color:green;
+     cursor: pointer;
+ }
+ .todo{
+     background-color: ivory;
+     border-radius: 5px;
+     margin-top: 20px;
+     padding: 10px 25px;
+     height: 10%;
+ }
+ ul{
+     padding-left: 0;
+ }
+ i{
+     pointer-events: none;
+ }
+ 
+ li{
+     display: flex;
+     align-items: center;
+     
+     padding-top: 15px;
+     padding-bottom:5px;
+     border-bottom:  1px solid #595959;
+     font-size: 1.5rem;
+     color: #595959;
+ }
+ #clearAll{
+     display: flex;
+      justify-content: flex-end;
+      padding: 5px;
+      font-size: 0.9rem;
+      color:rgb(44, 47, 53);
+      font-family: 'Raleway',sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+ }
+ #clearAll:hover{
+     color: gray;
+     
+ }
+ .todo-item{
+     padding-left: 3%;
+     font-size: 1.5rem;
+     color: black;
+     font-weight: 600;
+     max-width: 400px;
+     word-wrap: break-word;
+     font-family: 'Raleway',sans-serif;
+ }
+ .todo-list-item
+ {
+     transition: all 0.3s ease;
+ }
+ .todo-fall
+ {
+     transform: translateY(12rem) rotateZ(10deg);
+     opacity: 0;
+ }
+ #deletebutton:hover{
+        color: red;
+ }
